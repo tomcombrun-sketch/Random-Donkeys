@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Photos aléatoires d'ânes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Photos aléatoires d'ânes 🐴 (Donkeys)</h1>
+    <p class="lead">Recharge la page pour une nouvelle photo aléatoire, ou clique sur <strong>Galerie</strong> pour voir toutes les images.</p>
+
+    <section id="random-section" class="card">
+      <button id="newBtn">Nouvelle image</button>
+      <div id="randomWrap" class="image-wrap">
+        <img id="randomImg" alt="Image aléatoire d'âne" loading="lazy">
+      </div>
+      <p id="credit" class="credit">Images fournies par <a href="https://unsplash.com" target="_blank" rel="noreferrer">Unsplash Source</a>.</p>
+    </section>
+
+    <section id="gallery-section" class="card">
+      <h2>Galerie (100 images)</h2>
+      <div id="gallery" class="gallery"></div>
+    </section>
+
+    <footer>
+      <small>Prêt à déployer — instructions dans le fichier README.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
